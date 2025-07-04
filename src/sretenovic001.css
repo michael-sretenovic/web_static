@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 220px 0 50px 185px;
+}
+
+#header{
+	background: url(Header_Logo.gif) fixed -2px 0;
+	background-repeat: no-repeat;
+	height: 220px;
+	margin-left: -2px;
+	position: fixed;
+	text-indent: -100%;
+	top: 0;
+	width: 500%;
+}
+
+#nav>img.logo{
+	border-bottom: 3px solid #898989;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+#nav{
+	background: url(Sidebar_Blue.gif) 0px 0;
+	background-repeat: repeat-y;
+	height: 100%;
+	left: 0;
+	padding-top: 240px;
+	position: fixed;
+	top: 0;
+	width: 183px;
+}
+
+#nav>ul>li{
+	list-style-image: url(Bullet_Red.gif);
+	margin-bottom: 20px;
+}
+
+#content{
+	padding-left: 20px;
+}
+
+#footer{
+	background-color: #B20F0F;
+	bottom: 0;
+	Color: White;
+	height: 50px;
+	left: 180px;
+	*line-height: 50px;
+	padding-left: 25px;
+	position: fixed;
+	width: 100%;
+}
+
+#footer>img.logo{
+	border-bottom: 3px solid #898989;
+	bottom: 0;
+	margin-bottom: -2px;
+	position: fixed;
+	right: 0;
+}
